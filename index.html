@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="يقظ (Yaqith) — منصة الحوكمة والامتثال الاستباقي لإعلانات التوظيف والتحقق الميداني. عرض حي لإثبات المفهوم.">
+<meta name="theme-color" content="#25405E">
+<title>يقظ Yaqith</title>
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#top" aria-label="يقظ">
+      <img class="logo-l" src="img/logo-mark.png" alt="">
+      <img class="logo-d" src="img/logo-mark-light.png" alt="">
+      <span><b data-en="Yaqith">يقظ</b><small data-en="Proactive governance &amp; compliance platform">منصة الحوكمة والامتثال الاستباقي</small></span>
+    </a>
+    <nav class="main" aria-label="الأقسام">
+      <ul>
+        <li><a href="#idea" data-en="The idea">الفكرة</a></li>
+        <li><a href="#flow" data-en="Workflow">رحلة العمل</a></li>
+        <li><a href="#channels" data-en="Channels">القنوات</a></li>
+        <li><a href="#check" data-en="Ad check">فحص الإعلان</a></li>
+        <li><a href="#verify" data-en="Barcode">التحقق بالباركود</a></li>
+        <li><a href="#geo" data-en="Geo-attendance">البصمة الجغرافية</a></li>
+        <li><a href="#predict" data-en="Behavior &amp; prediction">تحليل السلوك والتنبؤ</a></li>
+        <li><a href="#results" data-en="Components">المكونات</a></li>
+        <li><a href="#roadmap" data-en="Roadmap">خريطة الطريق</a></li>
+      </ul>
+    </nav>
+    <div class="tools">
+      <button class="pill-btn" id="langBtn" type="button">English</button>
+      <button class="pill-btn" id="themeBtn" type="button" aria-label="Theme" style="line-height:0"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18z" fill="currentColor"/></svg></button>
+      <button class="pill-btn" id="resetBtn" type="button" title="إعادة العرض من البداية" aria-label="Reset demo" style="min-width:42px">↺</button>
+    </div>
+  </div>
+  <div class="disclaimer"><div class="wrap">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+    <span data-en="Prototype for proof of concept. Decisions are indicative and are not an official decision by the Ministry.">نموذج تجريبي، والقرارات استرشادية وليست قرارًا رسميًا من الوزارة.</span>
+  </div></div>
+</header>
+
+<main id="top">
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="chip"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg><span data-en="Live proof-of-concept · no real integration with any entity">عرض حي لإثبات المفهوم · دون ربط فعلي بأي جهة</span></span>
+      <h1 data-en-html="Stop violations <em>before they happen</em>, to protect the labor market">منع المخالفات <em>قبل وقوعها</em>.. لحماية سوق العمل</h1>
+      <p class="sub" data-en="Linking programmatic governance with advanced field verification">ربط الحوكمة البرمجية بالتحقق الميداني المتقدم</p>
+      <p class="lede" data-en="Yaqith is a smart digital system for governance and proactive response to job-advertisement compliance. It relies on artificial intelligence, data-analysis algorithms and programmatic integration (APIs), together with advanced field verification through geo-fingerprinting and verification chips, to prevent fraud and detect compliance gaps before a vacancy is published. It turns inspection into automated governance that raises compliance and lowers operating costs.">منصة "يَقِظ" هي نظام رقمي ذكي للحوكمة والاستجابة الاستباقية لامتثال إعلانات التوظيف. تعتمد المنصة على الذكاء الاصطناعي وخوارزميات تحليل البيانات والربط البرمجي (APIs)، بالإضافة إلى التحقق الميداني المتقدم عبر تقنيات البصمة الجغرافية وشرائح التحقق لمنع الاحتيال واكتشاف فجوات الامتثال قبل نشر الشاغر؛ مما يحول عملية التفتيش إلى حوكمة أوتوماتيكية ترفع مستوى الامتثال وتخفض التكاليف التشغيلية.</p>
+      <div class="cta">
+        <a class="btn pri" href="#check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span data-en="Try an ad check">جرّب فحص إعلان</span></a>
+        <a class="btn sec" href="#verify"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM20 14v.01M14 20h.01M17 20h4v-3"/></svg><span data-en="Verify a barcode">تحقق من باركود</span></a>
+      </div>
+    </div>
+    <div class="hero-logo">
+      <img class="logo-l" src="img/logo-full.png" alt="شعار يقظ">
+      <img class="logo-d" src="img/logo-full-light.png" alt="شعار يقظ">
+    </div>
+  </div>
+</section>
+
+<!-- IDEA -->
+<section class="band" id="idea">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-en="The problem">المشكلة</span>
+      <h2 data-en="The labor market faces two main challenges">سوق العمل يواجه تحدّيين رئيسيين</h2>
+      <p data-en="The market is changing fast, and with it come regulatory challenges in detecting hiring violations and fake Saudization through unofficial channels.">يشهد سوق العمل تحولات سريعة يصاحبها تحديات تنظيمية في كشف مخالفات التوظيف وممارسات التوطين الوهمي عبر قنوات غير رسمية.</p>
+    </div>
+    <div class="grid g3">
+      <article class="card">
+        <div class="ic r"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11h18M5 11l1.5-5h11L19 11"/><circle cx="7.5" cy="16" r="3"/><circle cx="16.5" cy="16" r="3"/><path d="M10.5 16h3"/></svg></div>
+        <h3 data-en="Job-ad fraud and violations">احتيال وتجاوزات الإعلانات الوظيفية</h3>
+        <p data-en="Ads that require qualifications above the approved occupation cap, fake establishments copying and forging ads, or manipulating the vacancy lifecycle: suspending vacancies or posting sham ads to show Saudization on paper without real hiring.">نشر إعلانات تتطلب مؤهلات تتجاوز سقف المهن المعتمد، أو نسخ الإعلانات وتزويرها، أو التلاعب بسلسلة حياة الشاغر: تعليق الشواغر أو الإعلان الصوري لإثبات التوطين شكليًا دون توظيف فعلي.</p>
+      </article>
+      <article class="card">
+        <div class="ic r"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="7" r="4"/><path d="M5.5 21a6.5 6.5 0 0 1 13 0"/><path d="M3 3l18 18"/></svg></div>
+        <h3 data-en="Fake (paper) Saudization">التوطين الوهمي (الصوري)</h3>
+        <p data-en="Employees registered without actually being present at work, exploiting how easily traditional location proof can be faked (GPS Spoofing) to show that an employee or establishment exists.">تسجيل موظفين دون حضورهم الفعلي في مقر العمل، مستغلين سهولة التلاعب بالبصمة الجغرافية التقليدية (GPS Spoofing) لإثبات وجود الموظف أو المنشأة.</p>
+      </article>
+      <article class="card">
+        <div class="ic r"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/><path d="M3 3l3 3"/></svg></div>
+        <h3 data-en="After-the-fact oversight">الرقابة اللاحقة بدلًا من الاستباقية</h3>
+        <p data-en="Inspection bodies rely on random reports or untargeted rounds, because there is no behavioral prediction.">اعتماد جهات التفتيش على بلاغات عشوائية أو جولات غير موجهة، لغياب التنبؤ السلوكي.</p>
+      </article>
+    </div>
+
+    <div class="sec-head" style="margin-top:56px">
+      <span class="eyebrow" data-en="The core solution">الحل والفكرة المبتكرة</span>
+      <h2 data-en="From reacting after the fact to preventing it beforehand">من الرد بعد الوقوع إلى المنع قبل الوقوع</h2>
+      <p data-en="Yaqith is a proactive digital governance system that links programmatic governance with advanced field verification.">"يقظ" منظومة حوكمة رقمية استباقية تحوّل الرقابة والتفتيش عبر الربط بين الحوكمة البرمجية والتحقق الميداني المتقدم.</p>
+    </div>
+    <div class="shift">
+      <div class="card from"><div class="k" data-en="Traditional approach">الأسلوب التقليدي</div><div class="v" data-en="Respond and enforce after the violation">الرد والضبط بعد وقوع المخالفة</div></div>
+      <div class="arrow"><svg class="flip" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M19 12H5M11 6l-6 6 6 6"/></svg></div>
+      <div class="card to"><div class="k" data-en="With Yaqith">مع يقظ</div><div class="v" data-en="Automatic, real-time prevention before it happens">المنع الآلي اللحظي قبل الوقوع</div></div>
+    </div>
+    <p class="note" style="margin-top:14px" data-en="The idea in one sentence: the establishment enters a job ad, the system identifies the occupation and its code, compares the qualification with the cap, and issues a decision with the reason. After acceptance a barcode is generated for the vacancy so the job seeker can verify the source, and the vacancy ends when it is closed with the appointed employee's data.">الفكرة بجملة: المنشأة تُدخل إعلان وظيفة، فيحدد النظام المهنة ورمزها، ويقارن المؤهل بالسقف، ويُصدر قرارًا مع السبب. وبعد القبول يُولَّد باركود للشاغر يتحقق به المستفيد من مصدر الإعلان، وينتهي الشاغر بإغلاقه ببيانات الموظف المعيّن.</p>
+  </div>
+</section>
+
+<section class="band alt" id="vision">
+  <div class="wrap">
+    <div class="vm">
+      <article class="card vision">
+        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></div>
+        <h3 data-en="Vision">الرؤية</h3>
+        <p class="big" data-en="To lead the transformation of inspection and of regulatory and cyber compliance in the Saudi labor market into automated, proactive governance powered by artificial intelligence and modern technologies.">الريادة في تحويل التفتيش والامتثال التنظيمي والسيبراني لسوق العمل السعودي إلى حوكمة أوتوماتيكية استباقية تعتمد على الذكاء الاصطناعي والتقنيات الحديثة.</p>
+      </article>
+      <article class="card mission">
+        <div class="ic g"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></div>
+        <h3 data-en="Mission">الرسالة</h3>
+        <p class="big" data-en="Protect the labor market and national jobs by automating the audit of job ads, verifying qualification caps, and preventing job fraud and fake Saudization through trusted technical solutions that ensure full compliance and reduce operating costs.">حماية سوق العمل والوظائف الوطنية من خلال أتمتة تدقيق إعلانات الوظائف، والتحقق من سقف المؤهلات، ومنع الاحتيال الوظيفي والتوطين الوهمي عبر حلول تقنية موثوقة تضمن الامتثال الشامل وتخفض التكاليف التشغيلية.</p>
+      </article>
+    </div>
+    <div class="sec-head" style="margin:48px 0 24px">
+      <span class="eyebrow" data-en="Strategic objectives">الأهداف الاستراتيجية</span>
+    </div>
+    <div class="grid g4">
+      <div class="card obj"><div class="ic g"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"/><path d="M14 3v6h6M9 15l2 2 4-4"/></svg></div><div><h3 data-en="Job-ad governance">حوكمة إعلانات الوظائف</h3><p data-en="Every ad is checked against the occupation's qualification cap before publishing.">فحص كل إعلان ومطابقة مؤهله بسقف المهنة قبل النشر.</p></div></div>
+      <div class="card obj"><div class="ic g"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9.5 12.5 11 14l3.5-3.5"/></svg></div><div><h3 data-en="Fighting fraud and fake Saudization">مكافحة الاحتيال والتوطين الوهمي</h3><p data-en="A verification barcode for each ad and a field fingerprint for each employee.">باركود تحقق لكل إعلان، وبصمة ميدانية لكل موظف.</p></div></div>
+      <div class="card obj"><div class="ic g"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></div><div><h3 data-en="Efficient, proactive compliance">رفع كفاءة الامتثال والاستجابة الاستباقية</h3><p data-en="An immediate decision with its reason; human review only when in doubt.">قرار فوري مع السبب، ومراجعة بشرية عند الشك فقط.</p></div></div>
+      <div class="card obj"><div class="ic g"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12a9 9 0 1 0 3-6.7L3 8"/><path d="M3 3v5h5M12 7v5l3 2"/></svg></div><div><h3 data-en="Transparent documentation and audit log">شفافية التوثيق وسجل التدقيق</h3><p data-en="Every step is recorded in an append-only log.">كل خطوة تُسجَّل في سجل للإضافة فقط.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FLOW -->
+<section class="band" id="flow">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">End-to-End Workflow</span>
+      <h2 data-en="The complete technical journey">رحلة العمل التقنية الكاملة</h2>
+    </div>
+    <div class="flow">
+      <article class="card stage">
+        <div class="head"><span class="no">1</span><div><h3 data-en="Vacancy creation and automatic filtering">إنشاء الشاغر والفلترة الآلية</h3><span class="en">Rule-Based Matching</span></div></div>
+        <dl>
+          <dt data-en="Action">الإجراء</dt><dd data-en="The establishment creates a new job ad on the platform.">تقوم المنشأة بإنشاء إعلان وظيفي جديد عبر المنصة.</dd>
+          <dt data-en="Technology">التقنية</dt><dd data-en="The server-side Rule Engine reads the ad instantly and matches it against the unified classification rules.">محرك القواعد البرمجي (Rule Engine) في السيرفر يقرأ بيانات الإعلان فورًا ويطابقها مع دليل أسس التصنيف الموحد للمهن.</dd>
+          <dt data-en="Result">النتيجة</dt><dd data-en="0% risk: approved automatically. Any deviation or risk indicator (such as a qualification above the cap): referred instantly to the human reviewer, with the flagged passage highlighted and a suggested recommendation. The final decision is human.">صفرية المخاطر (0% Risk): يُعتمد تلقائيًا. أي انحراف أو مؤشر خطر (مثل مؤهل يتجاوز سقف المهنة): يُحال فورًا للمراجع البشري مع إبراز الفقرة المشبوهة والتوصية المقترحة، والقرار النهائي بشري.</dd>
+        </dl>
+      </article>
+      <article class="card stage">
+        <div class="head"><span class="no">2</span><div><h3 data-en="Ad protection and anti-forgery">حماية الإعلان ومكافحة التزوير</h3><span class="en">Dynamic Barcode</span></div></div>
+        <dl>
+          <dt data-en="Action">الإجراء</dt><dd data-en="On approval, the system creates a QR code specific to this ad.">عند اعتماد الإعلان يُنشئ النظام رمز استجابة (QR Code) خاصًا بهذا الإعلان.</dd>
+          <dt data-en="Technology">التقنية</dt><dd data-en="The barcode opens a dynamic link connected to Yaqith's main server, not a static image or file.">الباركود لا يفتح صورة أو ملفًا ثابتًا، بل رابطًا تفاعليًا وديناميكيًا متصلًا بسيرفر يقظ الرئيسي.</dd>
+          <dt data-en="Result">النتيجة</dt><dd data-en="Approved ad: a green verification page. Forged or expired: an instant red warning, and the tampering attempt is logged.">إعلان معتمد: صفحة توثيق خضراء. مزور أو منتهٍ: تحذير أحمر فوري، ويُسجَّل التلاعب آليًا.</dd>
+        </dl>
+      </article>
+      <article class="card stage">
+        <div class="head"><span class="no">3</span><div><h3 data-en="Field verification against fake Saudization">التحقق الميداني والحد من التوطين الوهمي</h3><span class="en">NTAG 424 DNA + GPS</span></div></div>
+        <dl>
+          <dt data-en="Action">الإجراء</dt><dd data-en="GPS geofencing defines the approved zone of the workplace or field site.">التحقق الجغرافي (GPS Geofencing) يحدد النطاق المعتمد لمقر المنشأة أو موقع العمل الميداني.</dd>
+          <dt data-en="Technology">التقنية</dt><dd data-en="An NTAG 424 DNA chip at the workplace or on the employee card generates a unique encrypted code on every scan (SUN, AES-128 key). The employee scans it to prove presence, and the field inspector scans it to prove the establishment's real premises.">شريحة NTAG 424 DNA في مقر العمل أو بطاقة الموظف تولّد رمزًا تشفيريًا فريدًا عند كل مسح (SUN بمفتاح AES-128). يمسحها الموظف لإثبات حضوره، والمفتش الميداني لإثبات المقر الفعلي للمنشأة.</dd>
+          <dt data-en="How it prevents tampering">كيف تمنع التلاعب؟</dt><dd data-en="A copied link is rejected because the old key has expired, and fake GPS apps are detected by matching the chip with the actual location.">الرابط المنسوخ يُرفض لأن مفتاحه القديم انتهت صلاحيته، ويُكشف تزييف الموقع عبر تطبيقات GPS الوهمية بمطابقة الشريحة مع الموقع الفعلي.</dd>
+        </dl>
+      </article>
+      <article class="card stage">
+        <div class="head"><span class="no">4</span><div><h3 data-en="Regulatory documentation">التوثيق الرقابي</h3><span class="en">Append-only Audit Log</span></div></div>
+        <dl>
+          <dt data-en="Technology">التقنية</dt><dd data-en="Every step (ad accepted or rejected, barcode scan, successful or failed field check) is recorded instantly in a log that cannot be edited or deleted.">كل خطوة (قبول إعلان، رفضه، مسح باركود، محاولة تحقق ميداني ناجحة أو فاشلة) تُسجَّل فورًا في سجل غير قابل للتعديل أو الحذف.</dd>
+          <dt data-en="Result">النتيجة</dt><dd data-en="Reliable digital evidence for inspectors and government entities, ensuring integrity and full transparency.">مرجعية رقابية وأدلة رقمية موثوقة للمفتشين والجهات الحكومية لضمان النزاهة والشفافية الكاملة.</dd>
+        </dl>
+      </article>
+    </div>
+    <div class="outcome">
+      <strong data-en="End result: a fairer, more transparent and safer labor market">النتيجة النهائية: سوق عمل أكثر نزاهة وشفافية وأمانًا</strong>
+      <span data-en="✓ Trusted job ads">✓ إعلانات وظيفية موثوقة</span>
+      <span data-en="✓ No tampering or forgery">✓ منع التلاعب والتزوير</span>
+      <span data-en="✓ Less fake Saudization">✓ الحد من التوطين الوهمي</span>
+      <span data-en="✓ Full digital oversight">✓ رقابة رقمية شاملة</span>
+    </div>
+  </div>
+</section>
+
+<!-- CHANNELS -->
+<section class="band" id="channels" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-en="Platform channels">القنوات والواجهات</span>
+      <h2 data-en="A regulatory tool for government and oversight bodies">أداة رقابية للجهات الحكومية والرقابية</h2>
+      <p data-en="Yaqith helps government and oversight bodies verify the credibility of job ads and the field compliance of establishments, through four channels.">تعمل يقظ كأداة رقابية وحوكمية موجهة للجهات الحكومية والرقابية للتحقق من مصداقية الإعلانات الوظيفية والامتثال الميداني للمنشآت، عبر أربع قنوات.</p>
+    </div>
+    <div class="grid g4">
+      <article class="card ch"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg></div><span class="code">CH-01 · Admin/Inspector Dashboard</span><h3 style="margin:0" data-en="Oversight dashboard">لوحة تحكم الرقابة</h3><span class="who" data-en="Inspection and governance bodies">جهات التفتيش والحوكمة الحكومية</span><p data-en="Violation prediction map, managing predictive alerts, reviewing audit logs, and deciding on flagged cases.">خريطة التنبؤ بالمخالفات، وإدارة البلاغات التنبؤية، ومراجعة سجلات التدقيق، والبت في الحالات المشبوهة.</p></article>
+      <article class="card ch"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/><path d="M9.5 9.5a3.5 3.5 0 0 1 5 0M8 7.5a6 6 0 0 1 8 0"/></svg></div><span class="code">CH-02 · Field Inspector App</span><h3 style="margin:0" data-en="Field inspection app">تطبيق التفتيش الميداني</h3><span class="who" data-en="Field inspector">المفتش الميداني</span><p data-en="Reads the NTAG 424 DNA chip on site, documents violations, and receives automatically targeted inspection tasks.">قراءة شريحة NTAG 424 DNA الميدانية، وتوثيق المخالفات، واستلام مهام التفتيش الموجهة أوتوماتيكيًا.</p></article>
+      <article class="card ch"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14"/><path d="M9 21v-5h6v5"/></svg></div><span class="code">CH-03 · Employer Portal</span><h3 style="margin:0" data-en="Employer portal">بوابة المنشآت</h3><span class="who" data-en="Establishments and regulated entities">أصحاب المنشآت والجهات الخاضعة</span><p data-en="Upload vacancy ads, follow the establishment's compliance score, and receive regulatory alerts.">رفع إعلانات الشواغر، ومتابعة مؤشر الامتثال الخاص بالمنشأة، واستلام التنبيهات التنظيمية.</p></article>
+      <article class="card ch"><div class="ic g"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM20 20h1M17 20h1v1"/></svg></div><span class="code">CH-04 · Public verification</span><h3 style="margin:0" data-en="Public verification page">صفحة التحقق العامة</h3><span class="who" data-en="Job seekers">الباحث عن عمل</span><p data-en="Scan the ad's barcode and verify it without signing in.">مسح باركود الإعلان والتحقق منه دون تسجيل دخول.</p></article>
+    </div>
+    <div class="ints">
+      <span><b>G2G</b><span data-en="Ministry of Human Resources and Jadarat, via RESTful APIs and OAuth 2.0">وزارة الموارد البشرية ومنصة جدارات عبر RESTful APIs وOAuth 2.0</span></span>
+      <span><b>NTAG 424 DNA</b><span data-en="SUN token validation">التحقق من رمز SUN</span></span>
+      <span><b>Geofencing API</b><span data-en="Chip vs. the inspector's real location">مطابقة الشريحة مع موقع المفتش الفعلي</span></span>
+      <span><b>AI Pipeline</b><span data-en="Violation logs → engine → score → alert">سجلات المخالفات ← المحرك ← المؤشر ← التنبيه</span></span>
+    </div>
+    <p class="note" style="margin-top:10px" data-en="In this live demo all integrations run on mock implementations and synthetic data, with no real connection to any entity.">في هذا العرض الحي تعمل كل نقاط الربط بتنفيذ وهمي وبيانات افتراضية، دون ربط فعلي بأي جهة.</p>
+  </div>
+</section>
+
+<!-- CHECK -->
+<section class="band alt" id="check">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-en="Vacancy cycle · interactive demo">دورة الشاغر · عرض تفاعلي</span>
+      <h2 data-en="Check a job ad: a decision with its reason in seconds">فحص الإعلان: قرار مع السبب في ثوانٍ</h2>
+      <p data-en="Auto-approval is only for cases with 0% risk. Any deviation or risk indicator is referred instantly to the reviewer, with the flagged passage highlighted and a suggested recommendation, and the final decision is human. AI may not invent an occupation code that is not on the list.">الاعتماد التلقائي مخصص فقط للحالات التي تسجل صفرية مخاطر (0% Risk). وأي انحراف أو مؤشر خطر يُحال فورًا للمراجع مع إبراز الفقرة المشبوهة والتوصية المقترحة، والقرار النهائي بشري. ولا يُسمح للذكاء الاصطناعي بتأليف رمز مهنة غير موجود في القائمة.</p>
+    </div>
+    <ol class="rail" id="rail"></ol>
+    <div class="lab">
+      <div class="card" style="display:grid;gap:16px">
+        <div>
+          <div class="note" style="margin-bottom:8px" data-en="Sample ads (test data) · matching against 2,008 occupations from the Saudi Standard Classification of Occupations">إعلانات تجريبية · المطابقة مع 2,008 مهنة من التصنيف السعودي الموحد للمهن</div>
+          <div class="samples" id="samples"></div>
+        </div>
+        <label class="f" for="adText"><span data-en="1 · Ad text">١ · نص الإعلان</span>
+          <textarea id="adText" rows="5"></textarea>
+        </label>
+        <button class="btn sec sm" id="extractBtn" type="button" style="justify-self:start"><span data-en="Extract the data">استخراج البيانات</span></button>
+        <div>
+          <div class="f" style="margin-bottom:6px;font-size:14px;font-weight:600" data-en="2 · Extracted data (the establishment can correct any field)">٢ · البيانات المستخرجة (المنشأة تعدّل أي حقل خاطئ)</div>
+          <div class="fields">
+            <label class="f" for="fTitle"><span data-en="Job title">المسمى</span><input type="text" id="fTitle"></label>
+            <label class="f" for="fQual"><span data-en="Qualification">المؤهل</span><input type="text" id="fQual"></label>
+            <label class="f" for="fExp"><span data-en="Experience">الخبرة</span><input type="text" id="fExp"></label>
+          </div>
+        </div>
+        <button class="btn pri" id="checkBtn" type="button" style="justify-self:start"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span data-en="Check the ad">افحص الإعلان</span></button>
+      </div>
+      <div class="res" id="result"></div>
+    </div>
+  </div>
+</section>
+
+<!-- VERIFY -->
+<section class="band" id="verify">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-en="Barcode verification">التحقق بالباركود</span>
+      <h2 data-en="How does a job seeker or inspector verify an ad?">كيف يتأكد المستفيد أو المفتش من صحة الإعلان؟</h2>
+    </div>
+    <div class="verify">
+      <div style="display:grid;gap:22px">
+        <div class="vsteps">
+          <div class="vstep"><span class="no">1</span><div><h3 data-en="Scan">مسح الباركود (Scan)</h3><p data-en="Every ad approved by Yaqith carries its own QR code. The job seeker or inspector opens the phone camera and scans it.">كل إعلان معتمد من "يَقِظ" يحمل رمز استجابة سريع خاصًا به، يفتح الباحث عن عمل أو المفتش كاميرا الجوال ويمسحه مباشرة.</p></div></div>
+          <div class="vstep"><span class="no">2</span><div><h3 data-en="Instant server validation">الفحص الفوري من السيرفر (Server Validation)</h3><p data-en="The phone does not open a static image or PDF that can be tampered with, but a live dynamic link to Yaqith's official server, which checks the database in fractions of a second.">لا يفتح الجوال صورة ثابتة أو ملف PDF يمكن التلاعب به، بل رابطًا تفاعليًا مباشرًا (Dynamic Link) بسيرفر "يَقِظ" الرسمي، والسيرفر يتحقق في أجزاء من الثانية من قاعدة البيانات.</p></div></div>
+          <div class="vstep"><span class="no">3</span><div><h3 data-en="The result on screen">النتيجة على شاشة الجوال (The Result)</h3><p data-en="Valid and trusted: the approved establishment, the job title matching the unified classification, the approval date and validity. Expired, cancelled or forged: a red warning, and the attempt is logged as suspected tampering in the audit log.">ساري وموثوق: اسم المنشأة المعتمدة، والمسمى المطابق لدليل أسس التصنيف الموحد، وتاريخ الاعتماد والصلاحية. منتهٍ أو ملغي أو مزور: رسالة تحذيرية حمراء، ويُسجَّل الحدث كـ"محاولة اشتباه أو تلاعب" في سجل التدقيق.</p></div></div>
+        </div>
+        <div class="card" style="display:grid;gap:10px">
+          <h3 style="margin:0;font-size:16.5px" data-en="What if someone copies the barcode?">ماذا لو نُسخ الباركود؟</h3>
+          <p data-en="A barcode only proves the vacancy exists, not that the ad in your hand is the same one. That is why the page shows the original ad's data and asks you to compare it. Unusual scan volume on a single barcode is monitored and logged, requests are rate-limited, and suspected copies show &quot;This ad is under review&quot;.">الباركود يثبت أن الشاغر موجود فقط، ولا يثبت أن الإعلان الذي بيدك هو نفسه. لذلك تعرض الصفحة بيانات الإعلان الأصلي وتطلب مطابقتها. وتُراقَب كثرة المسحات الغريبة على باركود واحد وتُسجَّل، ويُحدَّد معدل الطلبات، وعند الاشتباه تظهر "هذا الإعلان قيد المراجعة".</p>
+          <div class="note" data-en="Try the possible states:">جرّب الحالات الممكنة:</div>
+          <div class="states" id="states"></div>
+        </div>
+      </div>
+      <div class="phone" aria-label="صفحة التحقق">
+        <div class="screen" id="screen"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AUDIT -->
+<section class="band alt" id="audit">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Append-only Audit Log</span>
+      <h2 data-en="Audit log: every step is recorded">سجل التدقيق: كل خطوة تُسجَّل</h2>
+      <p data-en="This log fills as you use the demo. It only accepts additions; a correction is recorded as a new line.">يمتلئ هذا السجل أثناء استخدامك للعرض. يقبل الإضافة فقط، والتصحيح يُسجَّل كسطر جديد.</p>
+    </div>
+    <div class="log" id="log" aria-live="polite"></div>
+  </div>
+</section>
+
+<!-- GEO -->
+<section class="band" id="geo">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-en="Geo-temporal fingerprint governance">حوكمة البصمة الجغرافية الزمنية</span>
+      <h2 data-en="Real presence, not paper Saudization">حضور حقيقي، لا توطين وهمي</h2>
+      <p data-en="The platform verifies the employee's location (GPS) and fingerprint (NTAG 424 DNA) and monitors ongoing compliance to detect tampering and fake Saudization.">تتحقق المنصة من موقع الموظف (GPS) وبصمة (NTAG 424 DNA) وتراقب استمرارية التزامه لكشف حالات التلاعب والتوطين الوهمي.</p>
+      <div class="modes">
+        <span class="tag t-navy" data-en="Office-based">مكتبي</span>
+        <span class="tag t-navy" data-en="Remote, within approved home boundaries">عن بُعد ضمن نطاق منزلي معتمد</span>
+        <span class="tag t-navy" data-en="Field, by task schedule">ميداني حسب جدول المهام</span>
+      </div>
+    </div>
+    <div class="fac">
+      <label for="facSel"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 9h1M14 9h1M9 13h1M14 13h1M10 21v-4h4v4"/></svg><span data-en="Selected establishment">المنشأة المحددة</span>
+        <select id="facSel"></select>
+      </label>
+      <span class="tag" style="background:rgba(255,255,255,.14);color:inherit" data-en="Test data">بيانات تجريبية</span>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><div class="k" data-en="Total employees">إجمالي الموظفين</div><div class="v" id="kEmp">—</div></div>
+      <div class="kpi"><div class="k" data-en="Overall compliance">نسبة الالتزام العام</div><div class="v" id="kRate" style="color:var(--green)">—</div></div>
+      <div class="kpi"><div class="k" data-en="Geographic violations">إجمالي المخالفات الجغرافية</div><div class="v" id="kVio" style="color:var(--high)">—</div></div>
+    </div>
+    <div class="filters">
+      <label class="f" for="fDept"><span class="note" data-en="Department">القسم</span><select id="fDept"></select></label>
+      <label class="f" for="fStat"><span class="note" data-en="Status">الحالة</span><select id="fStat"></select></label>
+      <label class="f" for="fSearch"><span class="note" data-en="Search">بحث</span><input type="text" id="fSearch" placeholder="بحث باسم الموظف أو رقمه…" data-en-ph="Search by employee name or ID…"></label>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr>
+          <th data-en="Employee ID">رقم الموظف</th><th data-en="Name">اسم الموظف</th><th data-en="Department">القسم</th><th data-en="Check-in attempts">محاولات البصمة</th><th data-en="In zone">داخل النطاق</th><th data-en="Violations">المخالفات</th><th data-en="Compliance">نسبة الالتزام</th><th data-en="Suggested action">الحل والإجراء المقترح</th>
+        </tr></thead>
+        <tbody id="empBody"></tbody>
+      </table>
+    </div>
+    <div class="card manage">
+      <h3 style="margin:0 0 4px;font-size:17px" data-en="Manage test data">إدارة البيانات التجريبية</h3>
+      <p class="note" data-en="Add an establishment, or add and edit employees of the selected establishment. Violations and compliance are calculated automatically from attempts and in-zone check-ins.">أضف منشأة، أو أضف موظفي المنشأة المحددة وعدّلهم. المخالفات ونسبة الالتزام تُحسب تلقائيًا من المحاولات وداخل النطاق.</p>
+      <div class="mgrid">
+        <label class="f" for="mFac"><span data-en="New establishment">منشأة جديدة</span><input type="text" id="mFac" placeholder="اسم المنشأة" data-en-ph="Establishment name"></label>
+        <button class="btn sec sm" id="mAddFac" type="button" style="align-self:end"><span data-en="Add establishment">إضافة منشأة</span></button>
+      </div>
+      <div class="mgrid emp">
+        <label class="f" for="mEmp"><span data-en="Employee">الموظف</span><select id="mEmp"></select></label>
+        <label class="f" for="mName"><span data-en="Name">الاسم</span><input type="text" id="mName"></label>
+        <label class="f" for="mDept"><span data-en="Department">القسم</span><input type="text" id="mDept"></label>
+        <label class="f" for="mTot"><span data-en="Check-in attempts">محاولات البصمة</span><input type="number" id="mTot" min="1" inputmode="numeric"></label>
+        <label class="f" for="mInz"><span data-en="In zone">داخل النطاق</span><input type="number" id="mInz" min="0" inputmode="numeric"></label>
+      </div>
+      <div style="display:flex;flex-wrap:wrap;gap:10px;margin-top:12px">
+        <button class="btn pri sm" id="mSave" type="button"><span data-en="Save employee">حفظ الموظف</span></button>
+        <button class="btn sec sm" id="mDel" type="button" data-en="Delete employee">حذف الموظف</button>
+      </div>
+    </div>
+    <div class="scan">
+      <div class="card">
+        <h3 style="margin:0 0 6px;font-size:17px" data-en="Chip scan simulator (WF-03)">محاكي مسح الشريحة (WF-03)</h3>
+        <p class="note" data-en="Each scan generates a new SUN code (AES-128), which the server checks and matches with the location within a 10–50 m zone.">كل مسح يولّد رمز SUN جديدًا (AES-128)، ويتحقق منه السيرفر ويطابقه مع الموقع ضمن نطاق 10 إلى 50 مترًا.</p>
+        <div class="scanbtns" id="scanBtns"></div>
+      </div>
+      <div class="scanres" id="scanRes" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PREDICT -->
+<section class="band alt" id="predict">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-en="Behavior analysis &amp; violation prediction">تحليل السلوك والتنبؤ بالمخالفات</span>
+      <h2 data-en="Predict the violation before it happens">التنبؤ بالمخالفة قبل حدوثها</h2>
+      <p data-en="Analyze the establishment's behavior over the past 12 months to calculate its compliance and predict expected violations, so manual audits are targeted precisely.">تحليل أنماط تصرفات المنشأة خلال الـ12 شهرًا الماضية لحساب نسبة التزامها، والتنبؤ بالمخالفات المتوقعة قبل حدوثها لتوجيه التدقيق اليدوي بدقة.</p>
+    </div>
+    <div class="pipe">
+      <span data-en="Data accumulation">تراكم البيانات</span><svg class="flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+      <span data-en="Behavior analysis">تحليل السلوك</span><svg class="flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+      <span data-en="Current compliance">قياس مستوى الالتزام الحالي</span><svg class="flip" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg>
+      <span data-en="Future risk">التنبؤ بالخطر المستقبلي</span>
+    </div>
+    <div class="grid g2" style="align-items:start">
+      <div style="display:grid;gap:12px">
+        <h3 style="font-size:17px" data-en="1 · Recorded violations log">١ · سجل المخالفات المرصودة</h3>
+        <div class="vlog">
+          <div class="vcard crit">
+            <div class="ic r"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2h12M6 22h12M7 2v4l5 6-5 6v4M17 2v4l-5 6 5 6v4"/></svg></div>
+            <div><span class="code">HIST-01</span> <span class="tag t-crit" data-en="Critical">حرجة</span>
+              <h3 data-en="Systematic vacancy suspension">تعليق الشواغر الممنهج</h3>
+              <p data-en="80% of vacancies over the past year stayed open and suspended without closure or hiring, despite the statutory period passing and applicants being available.">بقاء 80% من الشواغر خلال السنة الماضية مفتوحة ومعلقة دون إغلاق أو توظيف رغم مرور المدة النظامية ووجود متقدمين.</p></div>
+          </div>
+          <div class="vcard high">
+            <div class="ic o"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M12 8v4M12 16h.01"/></svg></div>
+            <div><span class="code">HIST-02</span> <span class="tag t-high" data-en="High">مرتفعة</span>
+              <h3 data-en="Cumulative field-fingerprint mismatch">تباين البصمة الميدانية التراكمي</h3>
+              <p data-en="Field employees' GPS coordinates repeatedly deviate from the NTAG 424 DNA chip zone in more than 35% of all visits.">تكرار انحراف إحداثيات الـGPS لموظفي الميدان عن نطاق شرائح NTAG 424 DNA بنسبة تتجاوز 35% من إجمالي الزيارات.</p></div>
+          </div>
+        </div>
+      </div>
+      <div style="display:grid;gap:12px">
+        <h3 style="font-size:17px" data-en="2 · Behavior analysis engine">٢ · محرك تحليل سلوك المنشأة</h3>
+        <div class="card engine">
+          <div style="display:flex;gap:12px;align-items:center"><span class="spin stop" id="spin"></span><div><b data-en="Cumulative behavior analysis of the establishment (AI Engine Processing)">تحليل السلوك التراكمي للمنشأة (AI Engine Processing)</b><div class="note" id="engStat" data-en="Analysis complete">اكتمل التحليل</div></div></div>
+          <p class="note" data-en="The system collects historical records for the past 12 months and matches the suspension and field-deviation patterns to observe behavioral trends.">يجمع النظام السجلات التاريخية للـ12 شهرًا الماضية، ويطابق نمط التعليق والانحراف الميداني لملاحظة الاتجاهات السلوكية (Trends).</p>
+          <button class="btn sec sm" id="runAI" type="button" style="justify-self:start"><span data-en="Re-run analysis">إعادة تشغيل التحليل</span></button>
+          <div id="aiOut" style="display:grid;gap:14px">
+            <div>
+              <div class="note" data-en="3 · Compliance score">٣ · مؤشر الالتزام (Compliance Score)</div>
+              <div class="score"><span class="v num" id="scoreV">62%</span><span class="tag t-high" data-en="Low / under review">منخفض / تحت المراجعة</span></div>
+              <div class="sbar" style="margin-top:8px"><b id="scoreBar" style="width:62%"></b></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="predict" id="predBox" style="margin-top:20px">
+      <h3 data-en="4 · Predictive Violation Alert">٤ · المخالفة المتوقع ارتكابها (Predictive Violation Alert)</h3>
+      <p data-en-html="Based on the establishment's recorded behavior pattern (a high share of suspended vacancies together with spatial fingerprint mismatch), the system predicts a <span class=&quot;prob&quot;>78%</span> probability of suspending the current vacancy <span class=&quot;mono&quot;>#VAC-4091</span> or using non-objective justifications to close it.">"بناءً على النمط السلوكي المسجل للمنشأة (ارتفاع نسبة الشواغر المعلقة مع تباين البصمة المكانية)، يتنبأ النظام باحتمالية بنسبة <span class="prob">78%</span> لارتكاب مخالفة تعليق الشاغر الحالي رقم (<span class="mono">#VAC-4091</span>) أو استخدام تبريرات غير موضوعية لإغلاقه."</p>
+      <div class="acts">
+        <button class="btn pri sm" id="actAudit" type="button"><span data-en="Schedule a proactive manual audit">جدولة تدقيق يدوي استباقي</span></button>
+        <button class="btn sec sm" id="actEvid" type="button"><span data-en="View the evidence report">عرض تقرير الأدلة والتفاصيل</span></button>
+      </div>
+      <div id="evid" class="note" style="margin-top:12px" hidden></div>
+      <div id="taskBox"></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESULTS -->
+<section class="band" id="results">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow" data-en="Framework components (scientific poster)">مكونات الإطار (الملصق العلمي)</span>
+      <h2 data-en="Yaqith framework components">مكونات إطار يقظ</h2>
+    </div>
+    <div class="comp" style="margin-bottom:0">
+      <div class="card"><span class="code mono note">Historical Behavior Record</span><h3 data-en="Historical behavior record">سجل السلوك التاريخي</h3><p data-en="Analyzes the establishment's historical hiring patterns over time, with digital integration with national platforms such as Jadarat to provide a national ATS database.">تحليل أنماط التوظيف التاريخية للمنشأة عبر الزمن، مع تكامل رقمي مع المنصات الوطنية مثل جدارات لتوفير قاعدة ATS وطنية.</p></div>
+      <div class="card"><span class="code mono note">Geofencing Protocol (GPC)</span><h3 data-en="Geofencing protocol">بروتوكول السياج الجغرافي</h3><p data-en="Attendance governance: office-based, remote within approved home boundaries, and field by task schedule; plus automated review of job ads for labor-law compliance.">حوكمة الحضور: مكتبي، وعن بُعد ضمن نطاق منزلي معتمد، وميداني حسب جدول المهام؛ مع مراجعة آلية لإعلانات الوظائف لامتثالها لنظام العمل.</p></div>
+      <div class="card"><span class="code mono note">AI &amp; Outputs</span><h3 data-en="AI and outputs">الذكاء الاصطناعي والمخرجات</h3><p data-en="Analyzes rejection justifications and detects suspicious patterns (NLP), issues proactive alerts, and generates the compliance heatmap.">تحليل مبررات الرفض وكشف الأنماط المشبوهة (NLP)، وإصدار تنبيهات استباقية، وتوليد خريطة حرارية للامتثال.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section class="band alt" id="roadmap">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Product Roadmap</span>
+      <h2 data-en="Roadmap and development phases">خريطة الطريق ومراحل التطور</h2>
+    </div>
+    <div class="road">
+      <article class="card now"><span class="when" data-en="Q4 2026 · current phase">الربع الرابع 2026 · المرحلة الحالية</span><h3 data-en="Prototype &amp; proof of concept">النموذج التفاعلي وإثبات المفهوم</h3><p data-en="Full interactive interfaces, logic tested with mock data, and a live demo at the exhibition with no real integration.">بناء الواجهات التفاعلية الكاملة، واختبار المنطق البرمجي ببيانات محاكية، والعرض الحي في المعرض دون ربط فعلي.</p></article>
+      <article class="card"><span class="when" data-en="Q1 2027">الربع الأول 2027</span><h3 data-en="Minimum viable product (MVP)">الحد الأدنى من المنتج (MVP)</h3><p data-en="Completing the connection of the predictive engine and the interactive inspector app.">اكتمال ربط المحرك التنبؤي وتطبيق المفتش التفاعلي.</p></article>
+      <article class="card"><span class="when" data-en="Q2–Q3 2027">الربعان الثاني والثالث 2027</span><h3 data-en="Pilot project">المشروع التجريبي (Pilot)</h3><p data-en="Limited operation in a secure, isolated cloud sandbox that mirrors national standards, to test the chips and algorithms in the field before full rollout.">تشغيل محدود في بيئة سحابية معزولة وآمنة (Secure Cloud Sandbox) تحاكي المعايير الوطنية، لاختبار الشرائح والخوارزميات ميدانيًا قبل التوسع الكامل.</p></article>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <img src="img/logo-full-light.png" alt="">
+      <p data-en="Prototype for proof of concept. Decisions are indicative and are not an official decision by the Ministry.">نموذج تجريبي، والقرارات استرشادية وليست قرارًا رسميًا من الوزارة.</p>
+    </div>
+    <div>
+      <h4 data-en="Reference documents">المراجع</h4>
+      <ul>
+        <li data-en="Saudi Standard Classification of Occupations (1441/03/16 AH – 13/11/2019)">التصنيف السعودي الموحد للمهن (1441/03/16هـ – 2019/11/13م)</li>
+        <li data-en="Classification bases and rules (skill levels and qualification mapping)">أسس وقواعد التصنيف (مستويات المهارة وربط المؤهلات)</li>
+        <li data-en="Guide for applying the unified classification in the civil service sector">الدليل الاسترشادي لتطبيق التصنيف السعودي الموحد للمهن في قطاع الخدمة المدنية</li>
+        <li data-en="Occupational and actual job description cards (April 2021)">بطاقة الوصف المهني وبطاقة الوصف الفعلي (أبريل 2021م)</li>
+        <li data-en="Yaqith product requirements document (Functional Prototype &amp; System Architecture 1.0)">وثيقة متطلبات المنتج – منصة يقظ للحوكمة والامتثال الاستباقي (Functional Prototype &amp; System Architecture 1.0)</li>
+        <li>SAIP - Yaqith Framework · National Employment Platform (Jadarat) Compliance Standards</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status"></div>
+
+
+<script src="js/vendor/qrcode.min.js"></script>
+<script src="js/data/occupations.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
